@@ -60,8 +60,67 @@ nav ul li a:hover {
 	padding: 20px 5%;
 	border-radius: 10px;
 	margin: 20px 5%;
+	display: flex;
+	align-items: flex-start;
+}
+
+.container img {
+	width: 20%;
+	border-radius: 10px;
+	margin-right: 100px;
+	margin-top: 10%;
 }
 
 .content {
 	text-align: center;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container button {
+	margin-top: 20px;
+}
+
+.project {
+	margin-top: 5%;
+	margin-left: 30%;
+	margin-bottom: 3%;
+	padding: 20px;
+	background-color: #e5e0e0;
+	border-radius: 10px;
+}
+
+.project h4 {
+	margin-right: 10%;
+	text-align: right;
+}
+
+.project button {
+	margin-left: 30%;
+}
+
+.project p {
+	color: #000000;
+	text-align: left;
+}
+
+.project img {
+	width: 100%;
+	border-radius: 10px;
+	margin-right: 100px;
+}
+
+.button-tools {
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	border: 3px solid;
+	padding: 0.25em 0.5em;
+	box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+	position: relative;
+	touch-action: manipulation;
+	width: 30%;
 }
