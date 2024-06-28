@@ -84,7 +84,7 @@ nav ul li a:hover {
 
 .project {
 	margin-top: 5%;
-	margin-left: 30%;
+	margin-left: 20%;
 	margin-bottom: 3%;
 	padding: 20px;
 	background-color: #e5e0e0;
@@ -103,6 +103,7 @@ nav ul li a:hover {
 .project p {
 	color: #000000;
 	text-align: left;
+	margin-top: 10%;
 }
 
 .project img {
@@ -111,7 +112,8 @@ nav ul li a:hover {
 	margin-right: 100px;
 }
 
-.button-tools {
+.button-inprogress {
+	-webkit-text-stroke-width: 1px;
 	font-size: 16px;
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -123,4 +125,5 @@ nav ul li a:hover {
 	position: relative;
 	touch-action: manipulation;
 	width: 30%;
+	background-color: red;
 }
